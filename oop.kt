@@ -1,5 +1,5 @@
 // oop with kotlin
-class Cat(private val name: String) {
+class Lion(private val name: String) {
     
     var sleep: Boolean = false
 
@@ -23,9 +23,9 @@ class Cat(private val name: String) {
 
 fun main() {
 
-    val gippy = Cat("Gippy")
+    val simba = Lion("Simba")
 
-    gippy.toSleep()
-    gippy.sleep = true
-    gippy.toSleep()
+    simba.toSleep()
+    simba.sleep = true
+    simba.toSleep()
 }
