@@ -8,10 +8,10 @@ fun main() {
         if (number %2 == 0) continue
 
         
-        if (number > 15) break
+        if (number >= 20) break
 
         
-        val result = number * (number + 10)
+        val result = number * 10 / 2
         println("range result is $result")
     }
 }
